@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Thousand Sunny</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">
+      <a href="#">
+        <img src="img/logo.svg" alt="Logo" class="logo" width="41px" height="41px">
+      </a>
+    <ul class="main-nav">
+      <li class="item">
+        <a href="#" class="item-link"><span>Home</span></a></li>
+      <li class="item">
+        <a href="#" class="item-link">Destinations</a>
+      </li>
+      <li class="item">
+        <a href="#" class="item-link">About</a>
+      </li>
+      <li class="item">
+        <a href="#" class="item-link">Partner</a>
+      </li>
+    </ul>
+      <button class="btn btn-login">
+        <img src="img/login-icon.png" alt="" class="btn-icon">
+        <span class="btn-text">Login</span>
+      </button>
+      <button class="btn btn-register">
+        <img src="img/register-icon.png" alt="" class="btn-icon">
+        <span class="btn-text">Register</span>
+      </button>
+    </div>
+    <div class="header-bottom">
+      <h1 class="title">Explore and <br> Travel</h1>
+      <h2 class="form-title">Holiday finder</h2>
+      <form action="#" method="POST" id="filters" class="filters">
+        <select id="location" class="field">
+          <option value="" disabled selected>Location</option>
+          <option value="Moscow">Moscow</option>
+          <option value="New Your">New Yourk</option>
+        </select>
+        <select id="activity" class="field">
+          <option value="" disabled selected>Activity</option>
+          <option value="Yoga">Yoga</option>
+          <option value="Football">Football</option>
+        </select>
+        <select id="grade" class="field">
+          <option value="" disabled selected>Grade</option>
+          <option value="5">5</option>
+          <option value="4">4</option>
+        </select>
+        <select id="date" class="field">
+          <option value="" disabled selected>Date</option>
+          <option value="5">5</option>
+          <option value="4">4</option>
+        </select>
+        <button class="btn btn-form">
+          <span class="btn-text-form">Explore</span>
+        </button>
+      </form>
+    </div>
+  </header>
+  <section class="section-1">
+    <div class="section-info-1">
+      <h2 class="section-title section-title-1">A new way to explore the world </h2>
+      <p class="section-text section-text-1">
+        For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect 
+        trip, but now, they can also let Lonely Planet Experiences lead the way
+      </p>
+    <a href="#" class="btn-section btn-section-1">Learn more</a>
+    </div>
+  </section>
+  <section class="section-2">
+    <div class="section-header section-header-2">
+      <h2 class="section-title section-title-2">Featured destinations</h2>
+      <div class="view-more">
+        <a href="#" class="more-text">View all</a>
+        <img src="img/view-all.svg" alt="Simbol" class="simbol" width="4px" height="9px">
+      </div>
+    </div>
+    <div class="cards">
+      <a href="#" class="card">
+        <img src="img/raja-ampat.jpg" alt="raja-ampat" class="card-img">
+        <div class="label">
+          <h3 class="label-info label-title">Raja Ampat</h3>
+          <p class="label-info country">Indonesia</p>
+        </div>
+      </a>
+      <!--.card-->
+      <a href="#" class="card">
+        <img src="img/fanjingshan.jpg" alt="Fanjingshan" class="card-img">
+        <div class="label">
+          <h3 class="label-info label-title">Fanjingshan</h3>
+          <p class="label-info country">China</p>
+        </div>
+      </a>
+      <!--.card-->
+      <a href="#" class="card">
+        <img src="img/vevey.jpg" alt="Vevey" class="card-img">
+        <div class="label">
+          <h3 class="label-info label-title">Vevey</h3>
+          <p class="label-info country">Switzerland</p>
+        </div>
+      </a>
+      <!--.card-->
+      <a href="#" class="card">
+        <img src="img/skadar.jpg" alt="Skadar" class="card-img">
+        <div class="label">
+          <h3 class="label-info label-title">Skadar</h3>
+          <p class="label-info country">Montenegro</p>
+        </div>
+      </a>
+      <!--.card-->
+    </div>
+  </section>
+  <section class="section-3">
+    <div class="section-info-3">
+      <h2 class="section-title section-title-3">Guides by Thousand Sunny</h2>
+      <p class="section-text section-text-3">
+        Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.
+      </p>
+    <button class="btn btn-section-3">
+      <span class="btn-text-3">Download</span>  
+    </button>
+  </section>
+  <section class="section-4">
+    <h2 class="section-title section-title-4">Testimonials</h2>
+    <div class="block">
+      <div class="quote">
+        <img src="img/stars.svg" alt="Stars" class="stars">
+        <blockquote class="quote-block">
+          <q class="quote-text">Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec</q>
+          <div class="source">
+            <p class="source-name">Edward Newgate</p>
+            <p class="source-position">Founder Circle</p>
+          </div>
+        </blockquote>
+      </div>
+      <div class="demo-source">
+        <img src="img/plus.svg" alt="fig-plus" class="fig-plus">
+        <img src="img/circle.svg" alt="fig-circle" class="fig-circle">
+        <div class="source-photo">
+            <img src="img/source-photo.jpg" alt="source-photo" class="photo">
+            <div class="control-panel">
+              <button class="prev">
+                <img src="img/previous.svg" alt="previous" class="btn-prev">
+              </button>
+              <button class="next">
+                <img src="img/next.svg" alt="next" class="btn-next">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="section-5">
+    <div class="section-header">
+      <h2 class="section-title section-title-5">Trending stories</h2>
+      <div class="view-more">
+        <a href="#" class="more-text">View all</a>
+        <img src="img/view-all.svg" alt="Simbol" class="simbol" width="4px" height="9px">
+      </div>
+    </div>
+    <div class="stories-cards">
+      <div  class="story-card">
+        <img src="img/story-1.jpg" alt="Story Img" class="card-story-img">
+        <div class="card-text">
+          <h3 class="card-title">
+            The many benefits of  
+            taking a healing holiday
+          </h3>
+          <p class="story">
+            ‘Helaing holidays’ are on the rise 
+            tohelp maximise your health and happines...
+          </p>
+          <a href="#" class="read-more">Read more</a>
+        </div>
+      </div>
+      <div class="story-card">
+        <img src="img/story-2.jpg" alt="Story Img" class="card-story-img">
+        <div class="card-text">
+          <h3 class="card-title">
+            The best Kyoto restaurant
+            to try Japanese food
+          </h3>
+          <p class="story">
+            From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+            to visit...
+          </p>
+          <a href="#" class="read-more">Read more</a>
+        </div>
+      </div>
+      <div class="story-card">
+        <img src="img/story-3.jpg" alt="Story Img" class="card-story-img">
+        <div class="card-text">
+          <h3 class="card-title">
+            Skip Chichen Itza and head
+            to this remote Yucatan
+          </h3>
+          <p class="story">
+            It’s remote and challenging to get,
+            but braving the jungle and exploring
+            these ruins without the...
+          </p>
+          <a href="#" class="read-more">Read more</a>
+        </div>
+      </div>
+      <div  class="story-card">
+        <img src="img/story-4.jpg" alt="Story Img" class="card-story-img">
+        <div class="card-text">
+          <h3 class="card-title">
+            Surf’s up at these beginner
+            spots around the world
+          </h3>
+          <p class="story">
+            If learning to surf has in on your to-
+            do list for a while, the good news
+            is: it’s never too late...
+          </p>
+          <a href="#" class="read-more">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="ts-column">
+        <a href="#">
+          <img src="img/logo.svg" alt="Logo" class="logo" width="41px" height="41px">
+        </a>
+        <p class="ts-text">
+          Plan and book your perfect trip with 
+          expert advice, travel tips destination
+          information from us
+        </p>
+        <p class="copyright">
+          &copy; 2020 Thousand Sunny. All rights reserved
+        </p>
+      </div>
+      <div class="footer-menu">
+        <h3 class="footer-menu-title">
+          Destinations
+        </h3>
+        <ul class="footer-menu-list">
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Africa</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Antactica</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Asia</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Europe</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">America</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-menu">
+        <h3 class="footer-menu-title">
+          Shop
+        </h3>
+        <ul class="footer-menu-list">
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Destination Guides</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Pictorial & Gifts</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Special Offers</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Delivery Times</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">FAQs</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-menu">
+        <h3 class="footer-menu-title">
+          Interests
+        </h3>
+        <ul class="footer-menu-list">
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Adventure Travel</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Art And Culture</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Wildlife And Nature</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Family Holidays</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Food And Drink</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="social-media">
+        <a href="#" class="social-media-icon">
+          <img src="img/twitter.svg" alt="Twitter" class="icon">
+        </a>
+        <a href="#" class="social-media-icon">
+          <img src="img/facebook.svg" alt="Facebook" class="icon">
+        </a>
+        <a href="#" class="social-media-icon">
+          <img src="img/instagram.svg" alt="Instagram" class="icon">
+        </a>
+        <a href="#" class="social-media-icon">
+          <img src="img/ln.svg" alt="LN" class="icon">
+        </a>
+        <a href="#" class="social-media-icon">
+          <img src="img/youtube.svg" alt="Youtube" class="icon">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
